@@ -1,0 +1,74 @@
+/*
+* 
+* Author : Abdul Rehman
+* License : LL Lvato License
+*
+*/
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #7e40f6;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(126, 64, 246, 1), rgba(80, 139, 252, 1));
+}
+
+.mask-custom {
+    background: rgba(24, 24, 16, 0.2);
+    border-radius: 2em;
+    backdrop-filter: blur(25px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+.vhh-100 {
+    min-height: 100vh !important;
+}
+.wb-50 {
+    width:48.8% !important
+}
+.itask {
+    background: #36ae87;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 15px;
+    font-size: 19px;
+    margin-top: 10px;
+}
+ul {
+    padding: 0;
+    list-style: none;
+    background: transparent;
+}
+ul ul {
+    background: #000;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px 30px;
+    list-style: disclosure-closed;
+}
+.form-control {
+    background: #acacac2e;
+    border-radius: 20px;
+    color: #fff;
+    border: 2px solid;
+    font-size: 18px;
+    padding: 5px 20px;
+    line-height: 15px;
+    height: auto;
+}
+
+.form-control::placeholder {
+    color: #ffffff;
+}
+
+.form-control:focus {
+    background: #1d0052;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+.form-control:focus::placeholder {
+    color: #acacac2e !important;
+}
+button {
+    border-radius: 20px !important;
+}
